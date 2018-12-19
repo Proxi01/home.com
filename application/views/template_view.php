@@ -34,6 +34,20 @@
     </div>
     <div class="col-md-4 right-sidebar">
         <form action="" method="post" class="targets">
+            <label for="months">Месяц: <select name="month" id="months">
+                    <option value="january">Январь</option>
+                    <option value="february">Февраль</option>
+                    <option value="march">Март</option>
+                    <option value="april">Апрель</option>
+                    <option value="may">Май</option>
+                    <option value="june">Июнь</option>
+                    <option value="july">Июль</option>
+                    <option value="august">Август</option>
+                    <option value="september">Сентябрь</option>
+                    <option value="october">Октябрь</option>
+                    <option value="november">Ноябрь</option>
+                    <option value="december">Декабрь</option>
+                </select></label>
             <label>Предыдущие показания:</label> <input type="number" name="prev"><br>
             <label>Текущие показания:</label> <input type="number" name="curr"><br>
             <label>Сумма:</label> <input type="number" name="sum"><br>
