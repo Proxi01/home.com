@@ -14,7 +14,8 @@ $(function () {
             url: '../application/core/transfer.php',
             // url: '../application/controllers/controller_electricity.php',
             type: 'POST',
-            data: 'param=' + JSON.stringify(formData),
+            // data: 'param=' + JSON.stringify(formData),
+            data: {param: JSON.stringify(formData)},
             dataType: 'json',
             encode: true
         })

@@ -7,6 +7,7 @@ class Data_Base
     private static $password = '';
     private static $db = 'utility';
 
+
     //Connection DB
     static function connection()
     {

@@ -11,7 +11,7 @@ if ($_POST['param']){
     $sum = htmlspecialchars($param->sum);
 
 //Query to DB
-    $query = Data_Base::query("INSERT INTO `{$table}`(`month`,`previous_record`,`current_record`,`sum`) VALUES ({$month},{$prev},{$curr},{$sum})");
+    $query = Data_Base::query("INSERT INTO `{$table}`(`month`,`previous_record`,`current_record`,`sum`) VALUES ('{$month}',{$prev},{$curr},{$sum})");
 
     exit();
 
