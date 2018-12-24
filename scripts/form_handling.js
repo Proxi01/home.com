@@ -1,7 +1,6 @@
 $(function () {
     $('.targets').submit((e) => {
-// e.preventDefault();
-
+// e.preventDefault(e);
         const formData = {
             'uri': window.location.pathname.split('/')[1],
             'month': $("#months :selected").text(),
@@ -11,7 +10,7 @@ $(function () {
         };
         console.log(formData);
         $.ajax({
-            url: '../application/core/transfer.php',
+            url: '/application/core/transfer.php',
             // url: '../application/controllers/controller_electricity.php',
             type: 'POST',
             // data: 'param=' + JSON.stringify(formData),

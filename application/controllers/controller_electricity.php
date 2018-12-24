@@ -16,9 +16,9 @@ class Controller_Electricity extends Controller
     {
 
         $data = $this->model->get_data('electricity');
-                $this->view->generate('electricity_view.php', 'template_view.php', $data);
-
-
+        $this->view->generate('electricity_view.php', 'template_view.php', $data);
     }
+
+
 
 }

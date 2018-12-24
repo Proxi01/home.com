@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--    INCLUDE CSS-->
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="<?php __DIR__?>/style/style.css">
     <!--    bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -20,12 +20,12 @@
     <div class="col-md-2 sidebar">
         <nav>
             <ul>
-                <li><a href="electricity">Электроэнергия</a></li>
-                <li><a href="water">Вода</a></li>
-                <li><a href="gas">Газоснабжение</a></li>
-                <li><a href="warm">Теплоснабжение</a></li>
-                <li><a href="trash">Вывоз мусора</a></li>
-                <li><a href="zhek">ЖЭК</a></li>
+                <li><a href="/electricity">Электроэнергия</a></li>
+                <li><a href="/water">Вода</a></li>
+                <li><a href="/gas">Газоснабжение</a></li>
+                <li><a href="/warm">Теплоснабжение</a></li>
+                <li><a href="/trash">Вывоз мусора</a></li>
+                <li><a href="/zhek">ЖЭК</a></li>
             </ul>
         </nav>
     </div>
@@ -66,5 +66,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="../../scripts/form_handling.js"></script>
+<script src="../../scripts/script.js"></script>
 </body>
 </html>

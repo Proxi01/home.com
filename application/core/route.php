@@ -41,7 +41,11 @@ class Route
         $action = $action_name;
 
         if (method_exists($controller, $action)) {
-            $controller->$action();
+            if (!empty(is_numeric($routes[3]))){
+                $controller->$action($routes[3]);
+            }else {
+                $controller->$action();
+            }
         } else {
             Route::Error404();
         }
